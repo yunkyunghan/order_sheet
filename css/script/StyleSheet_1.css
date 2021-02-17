@@ -1,0 +1,396 @@
+﻿/*1.글꼴정의*/
+body, p, div, h1, h2, h3, h4, ul, li, table				
+{
+    color: #555555; 
+    font-family: 돋움; 
+    font-size: 14px; 
+    line-height: 17px;
+    }
+td				
+{
+    color: #555555; 
+    font-family: 돋움; 
+    font-size: 14px; 
+    line-height: 17px;
+    }
+    
+/*2.링크정의 - 주로 헤더 부분에서 많이 쓰임..*/
+/*2-1 : 공통링크*/
+a:link				
+{
+    color: #555555; 
+    font-family: 돋움; 
+    font-size: 16px; 
+    text-decoration: none; 
+    line-height: 22px
+    }
+a:visited			
+{
+    color: #555555; 
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    }
+a:active			
+{
+    color: #555555;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    }
+a:hover				
+{
+    color: #222222; 
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 22px
+    }
+ 
+/*2-2*/
+A.no0:link 
+{
+    color:#858585; 
+    text-decoration:none;   
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no0:visited 
+{
+    color:#858585; 
+    text-decoration:none ;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no0:active 
+{
+    color:#858585; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no0:hover 
+{
+    color:#858585; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    }
+
+/*2-3*/
+A.no1:link 
+{
+    color:#FFFFFF; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no1:visited 
+{
+    color:#FFFFFF; 
+    text-decoration:none ;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no1:active 
+{
+    color:#FFFFFF; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no1:hover 
+{
+    color:#FFFFFF; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+
+/*2-5 more */
+A.no2:link 
+{
+    color:#e59d35; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no2:visited 
+{
+    color:#e59d35; 
+    text-decoration:none ;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no2:active 
+{
+    color:#e59d35; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no2:hover 
+{
+    color:#e59d35; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+ 
+/*2-6 : 프로젝트정보,구인정보*/
+A.no3:link 
+{
+    color:#676767; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no3:visited 
+{
+    color:#676767; 
+    text-decoration:none ;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no3:active 
+{
+    color:#676767; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+A.no3:hover 
+{
+    color:#676767; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+    } 
+
+/* 3. 테이블*/
+table 
+{
+	font-family: 돋움;	
+	color: #676767;	
+    font-size: 14px; 
+    text-decoration: none; 
+    line-height: 17px
+}
+
+.border_st
+{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #d3d3d3;
+}
+
+/* 4. 로그인*/
+.Login_page_1 
+{
+	font-family: "돋움";
+	font-size: 14px;
+	color: #6633CC;
+	font-weight: bold;
+}
+.Login_page_2 
+{
+
+	font-family: "돋움";
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+}
+.Login_page_3 
+{
+	font-family: "돋움";
+	font-size: 14px;
+	color: #003b7e;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ced2d8;
+}
+
+/* 5. 동의부분 텍박 스타일*/
+.Agreement
+{
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #B5B5B5; 
+    width: 100px; 
+    height: 18px; 
+    font-size: 12px;
+}
+    
+/* 6. 높이와너비를 뺀 공통 택스드 박스 스타일..*/
+.txt
+{
+	border-style:solid; 
+	border-width:1px; 
+	height: 20px;
+	border-color:#B5B5B5;
+}
+/* 7. 내 버튼 스타일*/
+.btn
+{
+	height: 17px;                            
+    border: 1px solid #000000; 
+    background-color: #F9F4E5; 
+    color: #555555;
+}
+
+
+/* 8. Free Text Box*/
+.FreeTextBox
+{
+	color: #555555; 
+    font-family: 돋움; 
+    font-size: 14px; 
+}
+
+/* 9. 드랍다운 리스트*/
+.DropList
+{
+	border-style:solid; 
+	border-width:1px; 
+	height: 25px;
+	border-color:#000000;	
+}
+
+.Radio
+{
+	color:#676767; 
+    text-decoration:none;
+    font-family: 돋움; 
+    font-size: 12px;
+}
+
+/* 10. Sitemap */
+.sub_title 
+{
+	font-family: 돋움;
+	font-size: 18px;
+	font-weight: bold;
+	color: #006699;
+}
+.sub_text 
+{
+	font-family: 돋움;
+	font-size: 12px;
+}
+.sitemap_leftline 
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #e3c5e0;
+	font-family: "돋움";
+	font-size: 12px;
+	font-style: normal;
+	color: #006699;
+}
+
+.text_mode_0 
+{ 
+
+        font-family: 돋움;
+	font-size: 12px;
+        padding:5px 5px 5px 5px;
+} 
+
+
+
+TEXTAREA
+{
+    BORDER-RIGHT: c0c0c0 1px solid;
+    BORDER-TOP: c0c0c0 1px solid;
+    BORDER-LEFT: c0c0c0 1px solid;
+    BORDER-BOTTOM: c0c0c0 1px solid;
+	FONT-FAMILY: 돋움,Verdana; 
+	FONT-SIZE: 9pt;	 
+}
+INPUT
+{
+    BORDER-RIGHT: c0c0c0 1 px solid;
+    BORDER-TOP: c0c0c0 1 px solid;
+    BORDER-LEFT: c0c0c0 1 px solid;
+    BORDER-BOTTOM: c0c0c0 1 px solid;
+	FONT-FAMILY: 돋움,Verdana; 
+	FONT-SIZE: 9pt;
+}
+
+
+/**********************
+    AJAX
+**********************/
+/*워터마크*/
+.unwatermarked 
+{
+	height:18px;
+	width:148px;
+	font-weight:bold;
+}
+.watermarked 
+{
+	height:20px;
+	width:150px;
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	color:gray;
+}	
+/*밸리테이션*/
+.validatorCalloutHighlight 
+{
+    background-color: #efefef; 
+}
+
+/*캘린터*/
+.MyCalendar 
+ {
+    border:1px solid #646464;
+    background-color:#efefef;
+    color: red;
+}

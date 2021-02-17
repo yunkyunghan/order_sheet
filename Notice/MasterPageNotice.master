@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageNotice.master.cs" Inherits="Notice_MasterPageNotice" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<HTML>
+	<HEAD>
+		<title>충정교회</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	        <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+		 
+ 
+ 		
+ 	</head>
+
+<script type="application/x-javascript"> window.addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
+<form id="Form1" method="post" runat="server">
+
+
+   
+
+<body>
+     
+  
+               
+
+					<!--<div id="top-logo2">
+		<t1><img src="../images/Notic_top_back_2.gif"  height=100></a></t1>
+		 </div>-->
+
+
+
+		<div id="menu_3j">
+ 		<div class="menu1" onclick="location.href=''"><img src="../images/ic_menu_rotate_1.png" height=30 border=0 ></div></a>
+		<div class="menu2" onclick="location.href='default.aspx'">교회주보</div></a>
+		<div class="menu3" onclick="location.href='../scm_news/default.aspx'">충정소식</div></a> 		
+														</div>
+
+		
+                                           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                        
+
+ 
+<p style="margin-top:20px;">
+<!--
+<asp:HyperLink ID="lnkLogin" runat="server" CssClass="no0" NavigateUrl="~/MainLogin.aspx"></asp:HyperLink>
+<asp:HyperLink ID="lnkLogout" runat="server" CssClass="no0" NavigateUrl="~/MyPage/DoLogout.aspx"></asp:HyperLink>
+<asp:HyperLink ID="lnkHome" runat="server" CssClass="no0" NavigateUrl="~/Default.aspx"></asp:HyperLink>
+<asp:HyperLink ID="HyperLink3" runat="server" CssClass="no0"></asp:HyperLink>
+<asp:HyperLink ID="HyperLink2" runat="server" CssClass="no0"></asp:HyperLink>
+-->
+</div>
+</form>
+</body>
+</html>                
+                            

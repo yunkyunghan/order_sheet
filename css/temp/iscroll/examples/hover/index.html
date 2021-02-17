@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+
+
+        <!link rel="stylesheet"  href="jquery.mobile-1.0a3/jquery.mobile-1.0a3.min.css" />
+	<!script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script> 
+	<!script type="text/javascript" src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js"></script>	
+	 
+	<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+
+
+
+
+
+
+
+
+
+<title>충정교회</title>
+
+<script type="text/javascript" src="../../src/iscroll.js"></script>
+
+<script type="text/javascript">
+
+var myScroll,
+	hoverClassRegEx = new RegExp('(^|\\s)iScrollHover(\\s|$)'),
+	removeClass = function () {
+		if (this.hoverTarget) {
+			clearTimeout(this.hoverTimeout);
+			this.hoverTarget.className = this.hoverTarget.className.replace(hoverClassRegEx, '');
+			this.target = null;
+		}
+	};
+
+function loaded() {
+	myScroll = new iScroll('wrapper', {
+		onBeforeScrollStart: function (e) {
+			var target = e.target;
+
+			clearTimeout(this.hoverTimeout);
+
+			while (target.nodeType != 1) target = target.parentNode;
+
+			this.hoverTimeout = setTimeout(function () {
+				if (!hoverClassRegEx.test(target.className)) target.className = target.className ? target.className + ' iScrollHover' : 'iScrollHover';
+			}, 80);
+
+			this.hoverTarget = target;
+			
+			e.preventDefault();
+		},
+		onScrollMove: removeClass,
+		onBeforeScrollEnd: removeClass
+	});
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false);
+
+</script>
+
+<style type="text/css" media="all">
+.iScrollHover {
+	background:#fff !important;
+	color:#fff !important;
+}
+
+body,ul,li {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+body {
+	font-size:14px;
+	-webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+	font-family:arial;
+}
+
+#header {
+	position:absolute; z-index:2;
+	top:0; left:0;
+	width:100%;
+	height:45px;
+	line-height:45px;
+	background-color:#d51875;
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #fe96c9), color-stop(0.05, #d51875), color-stop(1, #7b0a2e));
+	background-image:-moz-linear-gradient(top, #fe96c9, #d51875 5%, #7b0a2e);
+	background-image:-o-linear-gradient(top, #fe96c9, #d51875 5%, #7b0a2e);
+	padding:0;
+	color:#eee;
+	font-size:20px;
+	text-align:center;
+}
+
+#header a {
+	color:#f3f3f3;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+}
+
+#footer {
+	position:absolute; z-index:2;
+	bottom:0; left:0;
+	width:100%;
+	height:48px;
+	background-color:#ffffff;
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #999), color-stop(0.02, #666), color-stop(1, #222));
+	background-image:-moz-linear-gradient(top, #999, #666 2%, #222);
+	background-image:-o-linear-gradient(top, #999, #666 2%, #222);
+	padding:0;
+	border-top:1px solid #444;
+}
+
+#wrapper {
+	position:absolute; z-index:1;
+	top:45px; bottom:48px; left:0;
+	width:100%;
+	background:#aaa;
+	overflow:auto;
+}
+
+#scroller {
+	position:absolute; z-index:1;
+/*	-webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	width:100%;
+	padding:0;
+}
+
+#scroller ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#scroller li {
+	padding:0 10px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+	background-color:#fafafa;
+	font-size:14px;
+}
+
+#myFrame {
+	position:absolute;
+	top:0; left:0;
+}
+
+</style>
+</head>
+<body>
+
+<div id="header"><a href="http://cubiq.org/iscroll">jscroll</a></div>
+<div id="wrapper">
+	<div id="scroller">
+		 
+
+
+
+
+
+ 
+	
+ 
+
+<div data-role="page" id="page_main">
+       
+              <div data-role="header" data-position="fixed">
+
+                     <H1>교회안내</H1><a onclick="location.href='../index.aspx'" data-icon="plus" data-theme="f">메뉴</A>
+ 
+             </div>
+
+<ul><li><img src="../images/in_top_2.gif" width=100% border="0"/></li></ul>
+<div id="menu_4a">
+		<div class="menu1"><b>안내</b></div> 
+		<div class="menu2"><a href="intro_1_2.aspx" data-transition="slide"><b>담임목사</b></a></div> 
+		<div class="menu3"><a href="intro_1_3.aspx" data-transition="slide"><b>|&nbsp;섬기는 이</b></a></div>
+		<div class="menu4"><a href="intro_1_4.aspx" data-transition="slide"><b>|&nbsp;약도</b></a></div>
+														</div>
+
+			
+			<p style="margin-top:20px;">
+				 <div id="text_mode_0" align=justify>
+							<img src="../images/intro_1_1.gif" border=0 width=250></div>
+					<p style="margin-top:20px;"> 
+						<TABLE width=100%>
+				   <tr><td><div id="text_mode_0" align=justify>
+
+
+
+
+
+
+
+				하나님께는 한 없는 충성(忠)을, 이웃에게는 곧은 삶(正)을 보여 주려는 열망을 가지고 있습니다
+				 <br><br>			 
+				교회를 신축한 후, 분별력 있는 영적 메세지, 능력과 치유의 역사, 차세대에 대한 교육열정, 
+				여기에 따뜻한 사랑의 물결로 이곳 일산을 조금씩 뒤덮어가고 있습니다.
+				 <br><br>
+				이물결은 일산을 넘어 가까운 곳에 위치한 북한,중국으로 파급되어 갈 것입니다. 
+				 <br><br>		
+				충정공동체는 마지막 시대에 하나님 앞에서 귀하게 쓰임 받는 도구가 되기위해 모두 한마음이 되어 달려가고 있습니다   
+				</div>	
+				</td></tr>
+				<tr><td><div id="text_mode_0" align=right><img src="../images/ock_sign.gif" width=100>&nbsp;&nbsp; 					 
+							</td></tr></table>
+							
+
+ 
+	 			<p style="margin-top:20px;">
+	<table cellspacing="0" border="0" bgcolor="#d7d7d7">								
+	<tr height=50><td  align=center valign=middle><a onclick="location.href='javascript:window.scrollTo(0, 1);'"> <b>위로가기</b>
+	</td></tr></table>
+
+ 
+
+
+ </div> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</div>
+<div id="footer"></div>
+
+</body>
+</html>

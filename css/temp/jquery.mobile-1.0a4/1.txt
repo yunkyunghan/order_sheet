@@ -1,0 +1,8 @@
+<div data-role="header" data-theme="e">
+				<h1>Header E</h1>
+			</div>
+			<div class="ui-body ui-body-e">
+				<h3>Header</h3>
+				<p>This is content color swatch "E" and a preview of a <a href="#" class="ui-link">link</a>.</p>
+				<a href="#" data-role="button" data-inline="true">Button</a>
+			</div>

@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Src="LoginControl.ascx" TagName="LoginControl" TagPrefix="uc2" %>
+<%@ Register Src="Notice/MainNoticeListControl.ascx" TagName="MainNoticeListControl" TagPrefix="uc1" %>
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head runat="server">
+<base href="./">
+
+
+<title>www.joblink.news</title>
+<link href="Css/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script src="common/script.js"></script>
+<form id="form1" runat="server">
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div align=center>
+<table width="100%" height=100%  border="0" cellpadding="0" cellspacing="0" >
+<tr><td align=center >
+ <!a href="http://www.joblink.news/Default.aspx" onfocus="this.blur()"/>
+ 
+ 
+ <a href="job_Notice/SCM_NoticeList.aspx" onfocus="this.blur()"/><img src="images/main_back.jpg" border=0 width=90%></a></td></tr> 
+</table>
+
+
+
+
+<table width="90%"   border="1" cellpadding="0" cellspacing="0" align=center bordercolor="#efefef">
+<tr>
+<td height="25" align=center><img src="images/top_menu_1.gif" usemap="#top_menu_1.gif" border=0></td>
+<td width=40  height="25" align=center>
+<asp:HyperLink ID="lnkLogin" runat="server" CssClass="no1" NavigateUrl="~/MainLogin.aspx">
+<font face="Verdana" size=1 color="#ffffff">&nbsp;<b>Login</b>&nbsp;</asp:HyperLink>
+<asp:HyperLink ID="lnkLogout" runat="server" CssClass="no1" NavigateUrl="~/MyPage/DoLogout.aspx">
+<font face="Verdana" size=1 color="#ffffff">&nbsp;<b>Logout</b>&nbsp;</asp:HyperLink></td></tr></table>
+
+
+
+
+
+
+<map name="top_menu_1.gif">
+<area shape="rect" coords="0,1,57,24" <asp:HyperLink ID="lnkHome" runat="server" CssClass="no1" NavigateUrl="~/Default.aspx"></asp:HyperLink>
+<area shape="rect" coords="62,1,120,25" <asp:HyperLink ID="lnkAdmin" runat="server" CssClass="no1"></asp:HyperLink>
+<!area shape="rect" coords="207,0,281,24" <asp:HyperLink ID="lnkMyPage" runat="server" CssClass="no1"></asp:HyperLink>
+</map>
+
+
+
+
+</div>
+</form>
+</body>
+</html>

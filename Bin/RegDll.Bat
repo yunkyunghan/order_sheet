@@ -1,0 +1,15 @@
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Common.Method.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Framework.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Library.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Main.Bsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Main.Dsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Notice.Bsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Notice.Dsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Offer.Bsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Offer.Dsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Project.Bsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.Project.Dsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.QNA.Bsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.QNA.Dsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.SendOut.Bsl.dll
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Regsvcs.exe C:\inetpub\joblink\Bin\Is.SendOut.Dsl.dll

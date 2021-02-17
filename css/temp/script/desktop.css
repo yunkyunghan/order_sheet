@@ -1,0 +1,17 @@
+body {
+   background-color: #ffffff;
+   
+}
+
+.name {
+   font-size: 2em;
+}
+
+
+.summary{
+   font-size: 1em;
+}
+
+.serverentry {
+   cursor: pointer;
+}
