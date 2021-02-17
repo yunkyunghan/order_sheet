@@ -13,7 +13,7 @@
 
 ___
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75987810/108172122-c3653400-713f-11eb-91ce-3dfd858f64f3.gif)
-__
+___
 ## Function
 * 품목 선택 시 자동으로 품목코드와 원가가 측정 
 * 품목 선택 후 수량 선택 시 품목 별 개수와 금액이 측정
